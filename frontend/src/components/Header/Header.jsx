@@ -11,7 +11,7 @@ const Header = () => {
           delivered straight to you. From quick bites to satisfying dinners,
           Nosh brings the taste you love right to your doorstep.
         </p>
-        <button>Explore Menu</button>
+        <button>View Menu</button>
       </div>
     </div>
   );
