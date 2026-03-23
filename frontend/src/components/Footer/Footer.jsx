@@ -1,13 +1,16 @@
 import React from 'react'
 import './Footer.css'
 import { assets } from '../../assets/assets'
+import { Link } from 'react-router-dom';
  
 const Footer = () => {
   return (
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          <Link to="/">
+            <img src={assets.logo} alt="" className="logo" />
+          </Link>
           <p>
             Nosh brings your favorite meals from the best local restaurants
             straight to your doorstep. Our mission is to make food ordering
